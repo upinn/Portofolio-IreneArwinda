@@ -1,0 +1,57 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fdf6ee;
+    color: #000;
+  }
+  
+  .custom-border {
+    border-bottom: 3px solid #5D2704;
+  }
+  
+  .navbar {
+    background-color: #fdf6ee;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #000;
+    margin-left: 20px;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    text-decoration: underline;
+  }
+  
+  .project-section {
+    padding: 80px 0;
+  }
+  
+  .project-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .project-section .row img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .custom-hr {
+    border: 0;
+    height: 3px;
+    background-color: #5D2704; 
+    opacity: 1; 
+    margin: 60px 0; 
+  }
+
+  .project-section .row img {
+    width: 800px;
+    max-width: 800px; 
+    height: auto;
+    
+    margin: 0 auto; 
+    display: block;
+  }
+  
